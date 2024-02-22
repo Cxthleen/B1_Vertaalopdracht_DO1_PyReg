@@ -86,6 +86,7 @@ inKassa = float(input("Hoeveel zit er nu in de kassa?"))
 while(not inKassa == (bedragInKassaBegin + dagTotaal - dagTotaalTerug )):
     print("Je hebt een kassaverschil! Tel de kassa opnieuw")
     inKassa = float(input("Hoeveel zit er nu in de kassa?")) 
+    
 
 os.system('cls')
 print("Kassa klopt, programma wordt afgesloten.")
